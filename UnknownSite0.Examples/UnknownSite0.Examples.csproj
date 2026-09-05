@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<PublishAot>true</PublishAot>
+	<InvariantGlobalization>true</InvariantGlobalization>
+	<StripSymbols>true</StripSymbols>
+	<IlcOptimizationPreference>Speed</IlcOptimizationPreference>
+	<NativeLib>Shared</NativeLib>
+	<IlcExportUnmanagedEntrypoints>true</IlcExportUnmanagedEntrypoints>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UnknownSite0.Plugins\UnknownSite0.Plugins.csproj" />
+  </ItemGroup>
+
+</Project>
